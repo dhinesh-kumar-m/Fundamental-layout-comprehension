@@ -56,7 +56,7 @@ nav > ul{
 }
  article > img{
    float: left;
-   margin:  0px 20px 20px 0px;
+   margin:  0px 10px 1px 0px;
  }
 
  .grid{
@@ -93,6 +93,20 @@ nav > ul{
     top: 0;
     background-color: #fff;
   }
+  body{
+    /* background-color: red; */
+  }
+
+  nav > ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature {
+    width: 40%;
+  }
+
 
    
  }
