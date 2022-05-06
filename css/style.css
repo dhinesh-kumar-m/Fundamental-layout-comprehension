@@ -72,19 +72,20 @@ nav > ul{
    row-gap: 1px;
  }
 
- @media  screen and (max-width:40em) {
+ @media  screen and (max-width:70em) {
   .grid{
     display: grid;
     grid-template-columns: 1fr;
   }
   .photos{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 1px;
     row-gap: 1px;
   }
-  nav a {
-    font-size: 1rem;
+  
+  nav  {
+    font-size: 1.7rem;
   }
   h1,h2{
     font-size: calc(1rem + 3vw);
