@@ -61,7 +61,7 @@ nav > ul{
 
  .grid{
    display: grid;
-   grid-template-columns: 4fr 1fr;
+   grid-template-columns: auto 1fr;
    column-gap: 20px;
  }
 
@@ -72,7 +72,7 @@ nav > ul{
    row-gap: 1px;
  }
 
- @media  screen and (max-width:70em) {
+ @media  screen and (max-width: 600px) {
   .grid{
     display: grid;
     grid-template-columns: 1fr;
